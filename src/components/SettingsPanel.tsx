@@ -45,7 +45,7 @@ const SettingsPanel: React.FC<SettingsPanelProps> = ({
   onOpenChange = () => {},
   settings = {
     apiEndpoint: "https://openrouter.ai/api/v1/chat/completions",
-    apiKey: "",
+    apiKey: "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",
     model: "qwen/qwen3-235b-a22b:free",
     temperature: 0.7,
     maxTokens: 2000,
